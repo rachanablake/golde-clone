@@ -1,1 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    font-family: 'Noto Sans', sans-serif;
+
+    color: #331C08;
+}
+
+:root{
+    --max-width: 1800px
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+
+@import '../src/assets/styles/main.scss'
