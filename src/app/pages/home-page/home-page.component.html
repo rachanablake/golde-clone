@@ -1,5 +1,33 @@
 <app-header-layout></app-header-layout>
 
+<div class="video-container">
+  <div class="video-content">
+    <div class="wrapper-video">
+      <video class="play-videos" [muted]="mute" autoplay loop>
+        <source src="../../../assets/videos/video-cover.mp4" type="video/mp4" class="video">
+        <source src="movie.ogg" type="video/ogg">
+        Your browser does not support the video tag.
+      </video>
+    </div>
 
+    
+    <div class="text-title">
+
+      <div class="text-header">
+        <h1>Save 20% Sitewide!</h1>
+      </div>
+  
+      <div class="text-desc">
+        <p>We're celebrating 7 years of Golde with a special deal for you.</p>
+      </div>
+      
+      <div class="text-button">
+        <button>20% off Everything</button>
+      </div>
+  
+    </div>
+    
+  </div>
+</div>
 
 <app-footer-layout></app-footer-layout>

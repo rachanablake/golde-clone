@@ -10,5 +10,5 @@ import { FooterLayoutComponent } from '../../layouts/footer-layout/footer-layout
   styleUrl: './home-page.component.scss'
 })
 export class HomePageComponent {
-
+  mute = true
 }

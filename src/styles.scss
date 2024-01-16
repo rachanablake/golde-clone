@@ -11,10 +11,13 @@
 
 :root{
     --max-width: 1800px
+
+    --primary-color: #FFF4C7;
 }
 
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
 
 
 @import '../src/assets/styles/main.scss'
